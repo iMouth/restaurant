@@ -1,0 +1,24 @@
+body {
+  background-color: black;
+  background-image: url("../img/berrylot.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+#content {
+  font-family: "Patrick Hand", cursive;
+}
+header {
+  text-align: center;
+  font-size: 12rem;
+  color: rgb(255, 166, 0);
+  -webkit-text-stroke: 5px black;
+}
+
+#tagline {
+  font-size: 5rem;
+  color: rgb(255, 214, 1);
+  -webkit-text-stroke: 3px black;
+  text-align: center;
+}
