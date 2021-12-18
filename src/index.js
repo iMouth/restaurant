@@ -1,2 +1,2 @@
 import "./style/style.css";
-import "./img/bowl.jpeg";
+import "./img/berrylot.jpeg";

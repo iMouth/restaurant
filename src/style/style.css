@@ -9,6 +9,7 @@ body {
 #content {
   font-family: "Patrick Hand", cursive;
 }
+
 header {
   text-align: center;
   font-size: 12rem;
@@ -17,8 +18,14 @@ header {
 }
 
 #tagline {
-  font-size: 5rem;
-  color: rgb(255, 214, 1);
-  -webkit-text-stroke: 3px black;
   text-align: center;
+  font-size: 7rem;
+  color: rgb(255, 214, 0);
+  -webkit-text-stroke: 3px black;
+}
+
+h2 {
+  margin-top: 10rem;
+  text-align: center;
+  color: white;
 }
