@@ -1,31 +1,67 @@
 body {
-  background-color: black;
-  background-image: url("../img/berrylot.jpeg");
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
+  background-color: rgb(255, 223, 0);
 }
 
 #content {
   font-family: "Patrick Hand", cursive;
 }
 
-header {
-  text-align: center;
-  font-size: 12rem;
-  color: rgb(255, 166, 0);
-  -webkit-text-stroke: 5px black;
+#header-main {
+  -webkit-text-stroke: 0;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  padding: 5px;
 }
 
-#tagline {
-  text-align: center;
-  font-size: 7rem;
-  color: rgb(255, 214, 0);
-  -webkit-text-stroke: 3px black;
+.title {
+  margin-left: 40px;
 }
 
-h2 {
-  margin-top: 15rem;
+.user {
+  margin-left: auto;
+  list-style: none;
+}
+
+.user li {
+  float: left;
+  padding: 0 10px;
+  border-bottom: 2px solid transparent;
+}
+
+.user li:hover {
+  border-bottom: 2px solid orange;
+  transform: translateY(-2px);
+}
+
+.user:last-child {
+  margin-right: 50px;
+}
+
+#pic-slogan {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.berry {
+  margin: 0 30px;
+  width: 200px;
+  height: auto;
+  -webkit-filter: drop-shadow(2px 2px 0 black) drop-shadow(-2px 2px 0 black)
+    drop-shadow(2px -2px 0 black) drop-shadow(-2px -2px 0 black);
+  filter: drop-shadow(2px 2px 0 black) drop-shadow(-2px 2px 0 black)
+    drop-shadow(2px -2px 0 black) drop-shadow(-2px -2px 0 black);
+}
+
+.slogan {
+  font-size: 40px;
   text-align: center;
-  color: white;
+}
+
+.slogan p:nth-child(2) {
+  background-color: black;
+  color: orange;
 }
