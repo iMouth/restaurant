@@ -1,0 +1,23 @@
+#contact {
+  display: none;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+iframe {
+  height: 60vh;
+  width: 50vw;
+  outline: black solid 1px;
+}
+
+#site-info {
+  text-align: center;
+  margin-left: 100px;
+  padding: 20px;
+  border: 1px solid black;
+  background-color: aliceblue;
+}
+
+#site-info p {
+  font-size: 1.2rem;
+}

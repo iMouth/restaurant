@@ -1,5 +1,5 @@
 #menu {
-  display: flex;
+  display: none;
   justify-content: center;
   flex-wrap: wrap;
   text-align: center;

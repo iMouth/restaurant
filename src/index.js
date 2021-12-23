@@ -1,5 +1,6 @@
 import "./style/home.css";
 import "./style/menu.css";
+import "./style/contact.css";
 import { setUp } from "./modules/frontPage.js";
 
 function importAll(r) {
