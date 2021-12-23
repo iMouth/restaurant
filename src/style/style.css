@@ -43,21 +43,20 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 .berry {
   margin: 0 30px;
-  width: 200px;
-  height: auto;
-  -webkit-filter: drop-shadow(2px 2px 0 black) drop-shadow(-2px 2px 0 black)
-    drop-shadow(2px -2px 0 black) drop-shadow(-2px -2px 0 black);
+  width: auto;
+  height: 60vh;
   filter: drop-shadow(2px 2px 0 black) drop-shadow(-2px 2px 0 black)
     drop-shadow(2px -2px 0 black) drop-shadow(-2px -2px 0 black);
 }
 
 .slogan {
-  font-size: 40px;
+  cursor: none;
+  font-size: 8vh;
   text-align: center;
 }
 
