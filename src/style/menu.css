@@ -1,0 +1,29 @@
+#menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+#menu div {
+  display: flex;
+  flex-basis: 33.33%;
+  flex-direction: column;
+}
+
+#menu div img {
+  align-self: center;
+  height: auto;
+  width: 400px;
+}
+
+#menu div h1 {
+  background-color: aliceblue;
+  width: 300px;
+  align-self: center;
+}
+
+#menu div h2 {
+  align-self: center;
+  max-width: 300px;
+}
