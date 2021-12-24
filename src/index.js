@@ -1,7 +1,10 @@
 import "./style/home.css";
 import "./style/menu.css";
 import "./style/contact.css";
+import "./style/content.css";
 import { setUp } from "./modules/content.js";
+import { homePage } from "./modules/homePage.js";
+import { contactPage } from "./modules/contactPage.js";
 
 function importAll(r) {
   return r.keys().map(r);
@@ -32,7 +35,8 @@ function displayContact() {
 
 function setUpPage() {
   setUp();
-
+  homePage();
+  contactPage();
   document.getElementById("home-user").addEventListener("click", displayHome);
   document.getElementById("menu-user").addEventListener("click", displayMenu);
   document
