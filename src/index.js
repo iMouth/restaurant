@@ -7,14 +7,6 @@ import { homePage } from "./modules/homePage.js";
 import { contactPage } from "./modules/contactPage.js";
 import { menuPage } from "./modules/menuPage.js";
 
-function importAll(r) {
-  return r.keys().map(r);
-}
-
-const images = importAll(
-  require.context("./img/", false, /\.(png|jpe?g|svg)$/)
-);
-
 function removeScreen() {
   let remove = document.getElementsByClassName("screen")[0];
   remove.remove();

@@ -10,7 +10,7 @@ function homePage() {
 
 function image(frontPage) {
   let img = document.createElement("img");
-  img.setAttribute("src", "../src/img/berry.png");
+  img.setAttribute("src", "img/berry.png");
   img.setAttribute("alt", "Açaí berries");
   img.setAttribute("class", "berry");
   frontPage.appendChild(img);

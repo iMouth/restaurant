@@ -37,7 +37,7 @@ function item(menu, src, alt, title, desc) {
 }
 
 function awaken(menu) {
-  let src = "../src/img/awaken.png";
+  let src = "img/awaken.png";
   let alt = "awaken Acai bow";
   let title = "AWAKEN BOWL";
   let desc =
@@ -46,7 +46,7 @@ function awaken(menu) {
 }
 
 function brazillian(menu) {
-  let src = "../src/img/brazillian.png";
+  let src = "img/brazillian.png";
   let alt = "brazillian Acai bow";
   let title = "BRAZILLIAN BOWL";
   let desc = "Topped With: granola, mango, strawberry, kiwi and honey";
@@ -54,7 +54,7 @@ function brazillian(menu) {
 }
 
 function sedona(menu) {
-  let src = "../src/img/sedona.png";
+  let src = "img/sedona.png";
   let alt = "sedona Acai bow";
   let title = "SEDONA BOWL";
   let desc = "Topped With: granola, strawberry, banana and honey";
@@ -62,7 +62,7 @@ function sedona(menu) {
 }
 
 function volcano(menu) {
-  let src = "../src/img/volcano.png";
+  let src = "img/volcano.png";
   let alt = "volcano Acai bow";
   let title = "VOLCANO BOWL";
   let desc =
@@ -71,7 +71,7 @@ function volcano(menu) {
 }
 
 function cleanse(menu) {
-  let src = "../src/img/cleanse.png";
+  let src = "img/cleanse.png";
   let alt = "cleanse Acai bow";
   let title = "CLEANSE BOWL";
   let desc =
@@ -80,7 +80,7 @@ function cleanse(menu) {
 }
 
 function mauiwaui(menu) {
-  let src = "../src/img/maui-waui.png";
+  let src = "img/maui-waui.png";
   let alt = "maui waui Acai bow";
   let title = "MAUI WAUI BOWL";
   let desc =
@@ -89,7 +89,7 @@ function mauiwaui(menu) {
 }
 
 function vortex(menu) {
-  let src = "../src/img/vortex.png";
+  let src = "img/vortex.png";
   let alt = "vortex Acai bow";
   let title = "VORTEX BOWL";
   let desc =
@@ -98,7 +98,7 @@ function vortex(menu) {
 }
 
 function redrock(menu) {
-  let src = "../src/img/red-rock.png";
+  let src = "img/red-rock.png";
   let alt = "red rock Acai bow";
   let title = "RED ROCK BOWL";
   let desc =
@@ -107,7 +107,7 @@ function redrock(menu) {
 }
 
 function summit(menu) {
-  let src = "../src/img/summit.png";
+  let src = "img/summit.png";
   let alt = "summit Acai bow";
   let title = "SUMMIT BOWL";
   let desc =
