@@ -2,6 +2,7 @@ function menuPage() {
   let content = document.getElementById("content");
   let menu = document.createElement("div");
   menu.setAttribute("id", "menu");
+  menu.setAttribute("class", "screen");
 
   awaken(menu);
   brazillian(menu);

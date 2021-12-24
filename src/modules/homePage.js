@@ -2,6 +2,7 @@ function homePage() {
   let content = document.getElementById("content");
   let frontPage = document.createElement("div");
   frontPage.setAttribute("id", "pic-slogan");
+  frontPage.setAttribute("class", "screen");
   image(frontPage);
   slogan(frontPage);
   content.appendChild(frontPage);

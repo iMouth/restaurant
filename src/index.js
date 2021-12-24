@@ -15,30 +15,30 @@ const images = importAll(
   require.context("./img/", false, /\.(png|jpe?g|svg)$/)
 );
 
-function remove() {
-  // TODO: Implement later
+function removeScreen() {
+  let remove = document.getElementsByClassName("screen")[0];
+  remove.remove();
 }
 
 function displayHome() {
-  let home = document.getElementById("pic-slogan");
-  home.style.display = "flex";
+  removeScreen();
+  homePage();
 }
 
 function displayMenu() {
-  let menu = document.getElementById("menu");
-  menu.style.display = "flex";
+  removeScreen();
+  menuPage();
 }
 
 function displayContact() {
-  let home = document.getElementById("contact");
-  home.style.display = "flex";
+  removeScreen();
+  console.log("hi");
+  contactPage();
 }
 
 function setUpPage() {
   setUp();
   homePage();
-  menuPage();
-  contactPage();
   document.getElementById("home-user").addEventListener("click", displayHome);
   document.getElementById("menu-user").addEventListener("click", displayMenu);
   document

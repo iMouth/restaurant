@@ -3,6 +3,7 @@ function contactPage() {
 
   let contact = document.createElement("div");
   contact.setAttribute("id", "contact");
+  contact.setAttribute("class", "screen");
 
   map(contact);
 
