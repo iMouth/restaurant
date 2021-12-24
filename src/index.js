@@ -32,7 +32,6 @@ function displayMenu() {
 
 function displayContact() {
   removeScreen();
-  console.log("hi");
   contactPage();
 }
 
