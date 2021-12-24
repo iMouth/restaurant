@@ -4,6 +4,7 @@ body {
 
 #content {
   font-family: "Patrick Hand", cursive;
+  caret-color: transparent;
 }
 
 #header-main {
@@ -33,6 +34,7 @@ body {
 .user li:hover {
   border-bottom: 2px solid orange;
   transform: translateY(-2px);
+  cursor: pointer;
 }
 
 .user:last-child {
