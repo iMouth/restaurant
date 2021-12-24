@@ -25,9 +25,9 @@ function slogan(frontPage) {
 }
 
 function sloganHelper(word, slogan) {
-  let word = document.createElement("p");
-  word.textContent = word;
-  slogan.appendChild(word);
+  let wordP = document.createElement("p");
+  wordP.textContent = word;
+  slogan.appendChild(wordP);
 }
 
 export { homePage };

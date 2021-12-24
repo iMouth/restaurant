@@ -1,5 +1,5 @@
 function setUp() {
-  let content = document.querySelector("#content");
+  let content = document.getElementById("content");
   let header = document.createElement("header");
   header.setAttribute("id", "header-main");
   title(header);
