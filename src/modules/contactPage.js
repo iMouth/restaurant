@@ -3,7 +3,9 @@ function contactPage() {
 
   let contact = document.createElement("div");
   contact.setAttribute("id", "contact");
+
   map(contact);
+
   let siteInfo = document.createElement("div");
   siteInfo.setAttribute("id", "site-info");
   location(siteInfo);
