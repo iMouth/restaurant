@@ -40,3 +40,24 @@ body {
 .user:last-child {
   margin-right: 50px;
 }
+
+@media all and (max-width: 550px) {
+  #header-main {
+    justify-content: space-between;
+    padding-bottom: 2rem;
+  }
+
+  .title {
+    margin: 0;
+    margin: auto 0;
+  }
+
+  .user {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .user:last-child {
+    margin: 0;
+  }
+}
