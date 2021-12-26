@@ -8,17 +8,33 @@
 .berry {
   margin: 0 30px;
   width: auto;
-  height: 60vh;
+  height: 35rem;
   filter: drop-shadow(2px 2px 0 black) drop-shadow(-2px 2px 0 black)
     drop-shadow(2px -2px 0 black) drop-shadow(-2px -2px 0 black);
 }
 
 .slogan {
-  font-size: 8vh;
+  font-size: 5rem;
   text-align: center;
 }
 
 .slogan p:nth-child(2) {
   background-color: black;
   color: orange;
+}
+
+@media all and (min-width: 300px) and (max-width: 500px) {
+  #pic-slogan {
+    margin: 0;
+    gap: 1.5rem;
+  }
+  .berry {
+    margin: 0;
+    height: 15rem;
+    width: auto;
+  }
+
+  .slogan {
+    font-size: 2rem;
+  }
 }

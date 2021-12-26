@@ -29,8 +29,7 @@ function displayContact() {
 
 function setUpPage() {
   setUp();
-  //homePage();
-  contactPage();
+  homePage();
   document.getElementById("home-user").addEventListener("click", displayHome);
   document.getElementById("menu-user").addEventListener("click", displayMenu);
   document
